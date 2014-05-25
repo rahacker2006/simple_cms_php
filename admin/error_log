@@ -1,0 +1,32 @@
+[21-May-2013 09:49:36] PHP Parse error:  syntax error, unexpected ':', expecting ',' or ';' in /home/marccoll/public_html/demo/2013/05/crear-un-CMS_06/admin/index.php on line 9
+[21-May-2013 09:49:37] PHP Parse error:  syntax error, unexpected ':', expecting ',' or ';' in /home/marccoll/public_html/demo/2013/05/crear-un-CMS_06/admin/index.php on line 9
+[21-May-2013 09:52:38] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/marccoll/public_html/demo/2013/05/crear-un-CMS_06/admin/index.php on line 27
+[21-May-2013 09:52:40] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/marccoll/public_html/demo/2013/05/crear-un-CMS_06/admin/index.php on line 27
+[21-May-2013 09:52:56] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/marccoll/public_html/demo/2013/05/crear-un-CMS_06/admin/index.php on line 27
+[14-Jul-2013 15:44:45] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/marccoll/public_html/demo/2013/07/crear-un-CMS_07/admin/categorias.php on line 13
+[14-Jul-2013 17:20:59] PHP Warning:  Unexpected character in input:  ''' (ASCII=39) state=1 in /home/marccoll/public_html/demo/2013/07/crear-un-CMS_07/admin/categorias.php on line 7
+[14-Jul-2013 17:20:59] PHP Parse error:  syntax error, unexpected $end in /home/marccoll/public_html/demo/2013/07/crear-un-CMS_07/admin/categorias.php on line 7
+[20-Jul-2013 07:15:34] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/marccoll/public_html/demo/2013/07/crear-un-CMS_07/admin/articulos.php on line 28
+[20-Jul-2013 07:16:40] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/marccoll/public_html/demo/2013/07/crear-un-CMS_07/admin/articulos.php on line 28
+[20-Jul-2013 07:17:22] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/marccoll/public_html/demo/2013/07/crear-un-CMS_07/admin/articulos.php on line 28
+[20-Jul-2013 07:17:33] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/marccoll/public_html/demo/2013/07/crear-un-CMS_07/admin/articulos.php on line 29
+[20-Jul-2013 07:17:35] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/marccoll/public_html/demo/2013/07/crear-un-CMS_07/admin/articulos.php on line 29
+[20-Jul-2013 07:17:36] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/marccoll/public_html/demo/2013/07/crear-un-CMS_07/admin/articulos.php on line 29
+[20-Jul-2013 07:18:32] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'marccoll'@'localhost' (using password: NO) in /home/marccoll/public_html/demo/2013/07/crear-un-CMS_07/admin/articulos.php on line 8
+[20-Jul-2013 07:18:32] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established in /home/marccoll/public_html/demo/2013/07/crear-un-CMS_07/admin/articulos.php on line 8
+[20-Jul-2013 07:18:32] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/marccoll/public_html/demo/2013/07/crear-un-CMS_07/admin/articulos.php on line 28
+[20-Jul-2013 07:18:34] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'marccoll'@'localhost' (using password: NO) in /home/marccoll/public_html/demo/2013/07/crear-un-CMS_07/admin/articulos.php on line 8
+[20-Jul-2013 07:18:34] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established in /home/marccoll/public_html/demo/2013/07/crear-un-CMS_07/admin/articulos.php on line 8
+[20-Jul-2013 07:18:34] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/marccoll/public_html/demo/2013/07/crear-un-CMS_07/admin/articulos.php on line 28
+[20-Aug-2013 09:45:48] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/marccoll/public_html/demo/2013/08/crear-un-CMS_09/admin/comentarios.php on line 27
+[20-Aug-2013 09:45:49] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/marccoll/public_html/demo/2013/08/crear-un-CMS_09/admin/comentarios.php on line 27
+[20-Aug-2013 09:45:51] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/marccoll/public_html/demo/2013/08/crear-un-CMS_09/admin/comentarios.php on line 27
+[20-Aug-2013 09:49:32] PHP Parse error:  syntax error, unexpected $end in /home/marccoll/public_html/demo/2013/08/crear-un-CMS_09/admin/comentarios.php on line 8
+[20-Aug-2013 09:57:59] PHP Parse error:  syntax error, unexpected $end in /home/marccoll/public_html/demo/2013/08/crear-un-CMS_09/admin/comentarios.php on line 44
+[20-Aug-2013 09:58:00] PHP Parse error:  syntax error, unexpected $end in /home/marccoll/public_html/demo/2013/08/crear-un-CMS_09/admin/comentarios.php on line 44
+[20-Aug-2013 09:58:08] PHP Parse error:  syntax error, unexpected $end in /home/marccoll/public_html/demo/2013/08/crear-un-CMS_09/admin/comentarios.php on line 44
+[20-Aug-2013 10:05:26] PHP Parse error:  syntax error, unexpected T_LNUMBER in /home/marccoll/public_html/demo/2013/08/crear-un-CMS_09/admin/comentarios.php on line 14
+[20-Aug-2013 10:05:28] PHP Parse error:  syntax error, unexpected T_LNUMBER in /home/marccoll/public_html/demo/2013/08/crear-un-CMS_09/admin/comentarios.php on line 14
+[20-Aug-2013 10:05:32] PHP Parse error:  syntax error, unexpected T_LNUMBER in /home/marccoll/public_html/demo/2013/08/crear-un-CMS_09/admin/comentarios.php on line 14
+[20-Aug-2013 10:05:36] PHP Parse error:  syntax error, unexpected T_LNUMBER in /home/marccoll/public_html/demo/2013/08/crear-un-CMS_09/admin/comentarios.php on line 14
+[27-Aug-2013 17:26:56] PHP Parse error:  syntax error, unexpected $end in /home/marccoll/public_html/demo/2013/08/crear-un-CMS_10/admin/barra_lateral.php on line 43
