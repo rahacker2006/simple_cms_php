@@ -7,7 +7,7 @@
 ?>
 
 	<div id="contenido_izq">
-	<p>A continuación puedes ver todas las entradas que se han escrito desde el panel de administración (¡sin censura!).</p>
+	<p>A continuación puedes ver todas las entradas que se han escrito desde el panel de administración (¡sin censura!). Este comentario es para GitHub</p>
 	<?php while ($post = mysql_fetch_array($res)) { 
 		$id = $post['categoria'];
 		$sql = sprintf("SELECT categoria FROM categorias WHERE id = '$id'");
