@@ -1,24 +1,63 @@
-<?php 
-	include 'cabecera.php';	
-	include 'includes/config.php';
-	$sql = sprintf("SELECT * FROM articulos ORDER BY id DESC");
-	$res = mysql_query($sql);
-	if (!$res) die('Invalid query: ' . mysql_error());
-?>
-
-	<div id="contenido_izq">
-	<p>A continuación puedes ver todas las entradas que se han escrito desde el panel de administración (¡sin censura!). Este comentario es para GitHub</p>
-	<?php while ($post = mysql_fetch_array($res)) { 
-		$id = $post['categoria'];
-		$sql = sprintf("SELECT categoria FROM categorias WHERE id = '$id'");
-		$categoria = mysql_query($sql); 
-		$categoria = mysql_fetch_array($categoria); ?>
-		<h2><a href="individual.php?id=<?php echo $post['id'] ?>"><?php echo $post['titulo'] ?></a></h2>
-		<p><?php echo $post['contenido'] ?> </p>
-		<p><?php echo $categoria['categoria']; ?></p>
-	<?php } ?>
-	
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>My Business</title>
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<link href="/css/core.css" rel="stylesheet" type="text/css" />
+	<!--[if lt IE 9]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+<div id="pre-header">
+	<div id="pre-header-container">
+		<div id="logo">
+			<a href="/">My Business</a>
+		</div>
+		<!-- language menu -->
 	</div>
-	
-	<?php include 'barra_lateral.php' ?>
 </div>
+<div id="wrapper">
+<header>
+	<div id="header" style="background-image:url(/images/headers/)">
+		
+	</div>
+	<!-- navigation 1 -->
+</header>
+<div id="container">
+	<section>
+		<div id="left">
+			
+			<div class="column-item">
+				<!-- navigation 2 -->			
+			</div>
+			
+			<!-- column content -->
+			
+		</div>
+	</section>
+	<section>
+		<div id="right">
+		
+			<!-- page content -->
+		
+		</div>
+	</section>
+</div>
+<footer>
+	<div id="footer">
+		<div id="footer-left">
+			<p>&copy; <a href="/" title="Web Design Tutorials">SSDTutorials</a> <!-- date --></p>
+		</div>
+		<div id="footer-right">
+			<!-- navigation 3 -->
+		</div>
+	</div>
+</footer>
+</div>
+<script src="/js/jquery-1.6.4.min.js"></script>
+<script src="/js/core.js"></script>
+</body>
+</html>
