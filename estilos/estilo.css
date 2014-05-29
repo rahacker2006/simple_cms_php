@@ -1,0 +1,167 @@
+html {
+    background: #eee;
+}
+
+body {
+	width: 1000px;
+	margin:0 auto 0 auto;
+	font-family:verdana;
+
+}
+
+a {
+	text-decoration: none;
+}
+
+#registro {
+    font-size: 20px;
+    width: 450px;
+    margin:auto;
+    padding: 30px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    -khtml-border-radius: 10px;
+    background: #fff;
+}
+ 
+label {
+    width: 200px;
+    line-height: 30px;
+    padding-top: 2px;
+    float:left;
+}
+ 
+input {
+    font-size: 20px;
+}
+ 
+input[type='submit'] {
+    width: 200px;
+    font-size: 30px;
+    margin: 30px auto;
+    border: 1px solid #fff;
+}
+ 
+.submit {
+    margin: 0 auto;
+    width: 200px;
+}
+ 
+.error {
+    color: red;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+textarea {
+	width: 100%;
+	height: 100px;
+	font-size: 20px;
+}
+/*** ADMIN ***/
+#menu {
+	background: #444444;
+	height: 40px;
+	color: #eee;
+	-moz-border-radius-bottomright: 10px;
+	-moz-border-radius-bottomleft: 10px;
+	-webkit-border-bottom-right-radius: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+	font-size: 12px;
+}
+#menu ul  {
+	width:720px;
+	margin:auto;
+}
+#menu ul li {
+	float:left;
+	line-height: 40px;
+	margin-right: 40px;
+	
+}
+#menu ul li:hover {
+	border-bottom: 3px solid #FF7400;
+	 -webkit-transition:border-bottom 0.3s linear; 
+	 -moz-transition:border-bottom 0.3s linear;  
+	 -o-transition:border-bottom 0.3s linear;  
+	 transition:border-bottom 0.3s linear;   
+}
+
+#menu ul li a {
+	color: #eee;
+}
+
+.escritura input {
+	background:none;
+	line-height:40px;
+	width:100%;
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+
+.escritura .actualizar, .escritura .publicar {
+	background: #444444;
+	padding:10px;
+	cursor:pointer;
+	color: #fff;
+	text-align:center;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+
+}
+
+#izquierda {
+	width:50%;
+	float: left;
+}
+
+#derecha {
+	width: 50%;
+	float:left;
+}
+
+
+/*****************************/
+#contenido {
+	clear:both;
+}
+
+#contenido_izq {
+	float: left;
+	width: 700px;
+}
+
+#barra_lateral {
+	float: right;
+	width: 250px;
+
+}
+
+#articulos {
+	width:100%;
+}
+
+#articulos th {
+	text-align: left;
+	padding: 15px;
+}
+
+#articulos tr {
+	background: #ddd;
+}
+ #articulos a {
+	 color: #454545;
+ }
+ 
+ #articulos td {
+	 text-align: center;
+ }
+ 
+#articulos td.titulo {
+	width: 850px;
+	padding:5px 5px 5px 30px;
+	text-align:left;
+}
+
+
